@@ -26,7 +26,7 @@ class VideoActivity : YouTubeBaseActivity() {
         txtTitle.text = video.description
 
         videoView.initialize(
-            "AIzaSyC13KQh0kEaSMlFf7TdEPLh3Fp6xznCA6E",
+            "GOOGLE_CLOUD_KEY", // Hidden for the security purpose
             object : YouTubePlayer.OnInitializedListener {
                 override fun onInitializationSuccess(
                     p0: YouTubePlayer.Provider?,

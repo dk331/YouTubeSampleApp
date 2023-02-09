@@ -53,7 +53,7 @@ class VideoAdapter internal constructor(private val videoList: List<Video>) :
 
         })*/
         /*holder.videoWeb.initialize(
-            "AIzaSyB_IILKUzaCGYEE-W_OyatgM9jzwa1xbo0",
+            "GOOGLE_CLOUD_KEY", // Hidden for the security purpose
             object : YouTubePlayer.OnInitializedListener {
                 override fun onInitializationSuccess(
                     p0: YouTubePlayer.Provider?,
